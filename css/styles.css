@@ -11,15 +11,18 @@
 }
 
 .footer{
-  background-color: #e6f2ff;
+  background-color: #cce6ff;
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
+  border-top: 3px ridge;
 }
 
 .jumbotron{
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
   color: floralwhite;
+  background-color: #fff;
+  border-bottom: 1px ridge;
 }
 a{
   font-size: 1.2em;
@@ -36,8 +39,9 @@ body{
   z-index: 0;
 }
 
-.navbar-dark{
-  background-color: #0059b3;
+.navbar-light{
+  background-color: #cce6ff;
+  border-bottom: 3px ridge;
 }
 
 .tab-content{
@@ -82,9 +86,17 @@ body{
   background: #0059b3; 
 }
 
+.row-header h1{
+  font-size: 2em;
+}
+
+.homeIntro img{
+  width: 350px;
+  height: 200px;
+}
 
 h1,h2,p {
-  color: white;
+  color: black;
   font-size: 1em;
 }
 

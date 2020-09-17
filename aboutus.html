@@ -16,32 +16,35 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-        <div class="container">
+    <nav class="navbar navbar-light bg-primary navbar-expand-sm fixed-top text-dark">
+        <div class="container text-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand ml-auto" href="./index.html"><img src="img/logo.png" height="30" width="41"></a>
+            
             <div class="collapse navbar-collapse" id="Navbar">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item"><a href="./index.html" class="nav-link"><span class="fa fa-home fa-lg"></span> Home</a></li>
-                <li class="nav-item active"><a href="./index.html" class="nav-link"><span class="fa fa-info fa-lg"></span> About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link"><span class="fa fa-list fa-lg"></span> Menu</a></li>
-                <li class="nav-item"><a href="contactus.html" class="nav-link"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            <ul class="navbar-nav mr-auto text-dark">
+                <li class="nav-item active"><a href="./index.html" class="nav-link"><span class="fa fa-home fa-lg text-dark"></span> Home</a></li>
+
+                <li class="nav-item"><a href="./aboutus.html" class="nav-link"><span class="fa fa-info fa-lg text-dark"></span> About</a></li>
+                
+                <li class="nav-item"><a href="./contactus.html" class="nav-link"><span class="fa fa-address-card fa-lg text-dark"></span> Contact</a></li>
             </ul>
+            <span class="navbar-text">
+                <a id="loginButton" role="modal">
+                    <span class="fa fa-sigin text-dark"></span>Login
+                </a>
+            </span>
         </div>
         </div>
     </nav>
 
     <header class="jumbotron">
-        <div class="container">
-            <div class="row row-header">
+        <div class="container-fluid">
+            <div class="row row-header justify-content-center">
                 <div class="col-12 col-sm-6">
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
-                <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                    <h1>Smart Tank System</h1>
+                    <p class="text-dark">IOT based Water Level Monitoring system is an innovative system which will inform the users about the level of liquid and will prevent it from overflowing. ... The LCD screen is used to display the status of the level of liquid in the containers.</p>
                 </div>
             </div>
         </div>
@@ -60,60 +63,35 @@
         </div>
 
         <div class="row row-content">
-            <div class="col-12 col-sm-6">
-                <h2>Our History</h2>
-                <p>Started in 2010, Ristorante con Fusion quickly established itself as a culinary icon par excellence in Hong Kong. With its unique brand of world fusion cuisine that can be found nowhere else, it enjoys patronage from the A-list clientele in Hong Kong.  Featuring four of the best three-star Michelin chefs in the world, you never know what will arrive on your plate the next time you visit us.</p>
-                <p>The restaurant traces its humble beginnings to <em>The Frying Pan</em>, a successful chain started by our CEO, Mr. Peter Pan, that featured for the first time the world's best cuisines in a pan.</p>
-            </div>
-            <div class="col-sm">
-                <div class="card">
-                    <h3 class="card-header bg-primary text-white">Facts At a Glance</h3>
-                    <div class="card-body">
-                        <dl class="row">
-                            <dt class="col-6">Started</dt>
-                            <dd class="col-6">3 Feb. 2020</dd>
-                            <dt class="col-6">Major Stake holder</dt>
-                            <dd class="col-6">HK Fines Foods</dd>
-                            <dt class="col-6">Last Years Turnover</dt>
-                            <dd class="col-6">$1,250,375</dd>
-                            <dt class="col-6">Employees</dt>
-                            <dd class="col-6">40</dd>
-                        </dl>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="card card-body bg-light">
-                    <blockquote class="blockquote">
-                        <p class="mb-0">
-                            You better cut pizzas in four pieces
-                            because I'm not hungry enough to eat.
-                        </p>
-                        <footer class="blockquote-footer">
-                            Yogi Berra,
-                            <cite title="Source Title">The wit and Wisdom of Yogi , P. Pepe, Diverison Books, 2014.</cite>
-                        </footer>
-                    </blockquote>
-                </div>
-                
+            <div class="col-12 col-sm-12">
+                <h2>Our Product</h2>
+                <p>We developed a Smart Water Overhead Tank Level Monitoring Device. Nowadays, it is needed to proper maintenance of water overhead tanks in apartments, industries, and flats. From the ground, water is pumped to overhead tanks according to water level required in the tank.</p>
+                <p>Our device is primarily targeted on reducing the manual efforts in checking the overhead tank level. Using Ultrasonic level sensors, it is engaged in monitoring the level of water in the tank up to 7.6 meters range. Hence the level of water will be captured and the data will be sent to the cloud platform. The user can monitor remotely and retrieve the data from the webpage. It gives notification and alarms via SMS and E-mail.</p>
             </div>
         </div>
 
 
         <div class="row row-content">
-            <div>
-                <h2>Corporate Leadership</h2>
+            
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header" role="tab" id="peterhead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" data-target="#peter">
-                                    Peter Pan <small>Chief Epicurious Officer</small>
+                                <a data-toggle="collapse" data-target="#peter" aria-expanded="false" aria-controls="">
+                                    Key Info
                                 </a></h3>    
                         </div>
-                        <div class="collapse show" id="peter" data-parent="#accordion">
+                        <div class="collapse" id="peter" data-parent="#accordion">
                             <div class="card-body">
-                                <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this restaurant, pioneering cross-cultural culinary connections.</p>
+                                <ul>
+                                  <li>Easy to install</li>
+                                  <li>Low maintenance cost</li>
+                                  <li>Compact elegant design</li>
+                                  <li>Ensures no overflows or dry running of pumps, thus saves electricity and water</li>
+                                  <li>Reduces man power</li>
+                                  <li>Consumes low energy though operating continuously</li>
+                                  <li>Accurate and clear indication of water level is provided</li>
+                                </ul>
                             </div>
                         
                     </div>
@@ -122,87 +100,19 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="dannyhead">
                             <h3 class="mb-0">
-                                <a data-toggle="collapse" data-target="#danny">Dhanasekaran Witherspoon <small>Chief Food Officer</small></a>
+                                <a data-toggle="collapse" data-target="#danny">Product Info</a>
                                 </h3>
                         </div>
-                        <div class="collapse show" id="danny" data-parent="#accordion">
+                        <div class="collapse" id="danny" data-parent="#accordion">
                         <div class="card-body">
-                            <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                            <p class="d-none d-sm-block">Because of the advantages of the directional ultrasonic transmitter, direction, strength and easy to control, and no touch with the object being measured etc., our smart water tank level monitoring is widely used in the liquid level measurement. The Ultrasonic sensors measure the water level in the tanks and the data is transferred to the IoT devices in specific time intervals. Then, the level of water is measured in the tanks and data will be stored on the cloud platform.
+                            The use of ultrasonic level measurement principle can be widely used in meteorological water level measurements, large tank level measurement, level measurement system of salt, testing well water, lakes, canals level, the tank liquid level, fill water level in industrial production etc. It can be designed at different ultrasonic level meters according to different needs.</p>
                         </div>
                     </div>
                     </div>
-
-                    <div class="card">
-                        <div class="card-header" role="tab" id="agumbehead">
-                            <h3 class="mb-0">
-                               <a data-toggle="collapse" data-target="#agumbe">Agumbe Tang <small>Chief Taste Officer</small></a> </h3>
-                        </div>
-                        <div class="collapse show" id="agumbe" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" role="tab" id="albertohead">
-                            <h3 class="mb-0"><a data-toggle="collapse" data-target="#alberto"> Alberto Somayya <small>Executive Chef</small></a></h3>
-                        </div>
-                        <div class="collapse show" id="alberto" data-parent="#accordion">
-                            <div class="card-body">
-                                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            </div>
+            
        </div>
-       <div class="row row-content">
-           <div class="col-12 col-sm-12">
-               <h2>Facts &amp; Figures</h2>
-               <div class="table-responsive">
-                   <table class="table table-striped">
-                       <thead class="thead-dark">
-                           <tr>
-                               <th>&nbsp;</th>
-                               <th>2013</th>
-                               <th>2014</th>
-                               <th>2015</th>
-                           </tr>
-                       </thead>
-                       <tbody>
-                            <tr>
-                               <th>Employess</th>
-                               <td>15</td>
-                               <td>30</td>
-                               <td>45</td>
-                            </tr>
-                            <tr>
-                               <th>Guests Served</th>
-                               <td>15000</td>
-                               <td>45000</td>
-                               <td>100000</td>
-                            </tr>
-                            <tr>
-                               <th>Special Events</th>
-                               <td>3</td>
-                               <td>20</td>
-                               <td>45</td>
-                           </tr>
-                           <tr>
-                               <th>Annual Turnover</th>
-                               <td>$251325</td>
-                               <td>$1250375</td>
-                               <td>$3000000</td>
-                           </tr>
-                       </tbody>
-                   </table>
-               </div>
-           
-               
-           </div>
-       </div>
-
     </div>
 
     <footer class="footer">
@@ -220,11 +130,11 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
-                      121, Clear Water Bay Road<br>
-                      Clear Water Bay, Kowloon<br>
-                      HONG KONG<br>
-                      <i class="fa fa-phone fa-lg"></i>   +852 1234 5678<br>
-                      <i class="fa fa-fax fa-lg"></i>   +852 8765 4321<br>
+                      31-40-43, TE(I.T)<br>
+                      DOn Bosco, Kurla<br>
+                      MUMBAI<br>
+                      <i class="fa fa-phone fa-lg"></i>   +123 4567 8903<br>
+                      <i class="fa fa-fax fa-lg"></i>   +987 6543 3210<br>
                       <i class="fa fa-envelope fa-lg"></i>   <a href="mailto:confusion@food.net">confusion@food.net</a>
                    </address>
                 </div>
@@ -241,7 +151,7 @@
            </div>
            <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2020 Manas Arham Sachin</p>
                 </div>
            </div>
         </div>

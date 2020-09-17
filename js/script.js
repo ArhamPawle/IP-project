@@ -23,5 +23,8 @@ $(document).ready(function() {
 
 	})
 
-	$('#openProfile').load("profile.html");
+
+    $(function(){
+        $("#accordion").accordion({'collapsible':true;'active:'false});
+    });
 });
